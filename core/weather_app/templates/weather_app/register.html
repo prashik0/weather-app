@@ -1,0 +1,43 @@
+{% extends 'weather_app/base.html' %}
+{% block start %}
+
+<div class="container mt-5">
+    <form class="col-5 mx-auto card p-3 shadow-lg" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h2>Register</h2>
+
+        <hr>
+        {% if messages %}
+        {% for message in messages %}
+
+        <div {% if message.message == "Username already taken." %} class="alert alert-danger" {% else %}
+            class="alert alert-success" {% endif %} role="alert">
+            {{ message }}
+        </div>
+
+        {% endfor %}
+        {% endif %}
+        <div class="form-group mb-3">
+            <label>First Name</label>
+            <input name="first_name" type="text" class="form-control">
+        </div>
+        <div class="form-group mb-3">
+            <label>Last Name</label>
+            <input name="last_name" type="text" class="form-control">
+        </div>
+        <div class="form-group mb-3">
+            <label>Username</label>
+            <input name="username" type="text" class="form-control">
+        </div>
+        <div class="form-group mb-3">
+            <label for="exampleInputPassword1">Password</label>
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-success mt-3 mb-4">Register</button>
+        <p class="text-center mt-0"> Already have an account? <a href="/login"
+                class="text-primary text-decoration-none">Login</a> </p>
+
+    </form>
+</div>
+
+{% endblock %}
