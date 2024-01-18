@@ -48,7 +48,7 @@ The objective of this project is to develop an API that provides historical weat
    ```bash
    python manage.py runserver
 
-## Getting Started
+## Project Demo
 <img width="1440" alt="Screenshot 2024-01-18 at 7 28 10 PM" src="https://github.com/prashik0/weather-app/assets/88423828/e49fe184-4007-42a4-95ea-31bb7a6b4e31">
 <hr>
 <img width="1440" alt="Screenshot 2024-01-18 at 7 28 37 PM" src="https://github.com/prashik0/weather-app/assets/88423828/c5382d8c-8340-428c-8356-258360bb48b4">
