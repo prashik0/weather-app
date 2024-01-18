@@ -6,7 +6,7 @@ The objective of this project is to develop an API that provides historical weat
 
 ## Getting Started
 
-1. **Update Python to the latest version:**
+1. **Update Python to the latest version**
 
 1. **Clone the Repository:**
 
@@ -15,7 +15,7 @@ The objective of this project is to develop an API that provides historical weat
    cd <project_directory>
    ```
 
-1. **Create a Virtual Environment::**
+1. **Create a Virtual Environment:**
 
    ```bash
    virtualenv env
