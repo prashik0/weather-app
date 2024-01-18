@@ -6,7 +6,7 @@ The objective of this project is to develop an API that provides historical weat
 
 ## Getting Started
 
-1. **Update Python to the latest version**
+1. **Update Python to the latest version (>= 3.10)**
 
 1. **Clone the Repository:**
 
