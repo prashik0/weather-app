@@ -6,21 +6,30 @@ The objective of this project is to develop an API that provides historical weat
 
 ## Getting Started
 
+1. **Update Python to the latest version:**
+
 1. **Clone the Repository:**
 
    ```bash
    git clone <repository_url>
    cd <project_directory>
+   ```
 
 1. **Create a Virtual Environment::**
 
    ```bash
    virtualenv env
+   ```
 
 1. **Activate the Virtual Environment:**
-
+   Mac users
    ```bash
    source env/bin/activate
+   ```
+   Windows users
+   ```bash
+   env\Scripts\activate
+   ```
 
 1. **Install Dependencies:**
 
