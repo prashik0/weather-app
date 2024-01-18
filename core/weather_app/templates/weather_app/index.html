@@ -44,7 +44,7 @@
 	{% for a, g in final_list %}
 	<div class="cards shadow-sm px-2 py-2 mb-2 rounded">
 		<h3 class="mb-0"><a class="navbar-brand" href="/">{{ g.city_name }} ({{g.country}})</a></h3>
-		<p class="lead">lat: {{ g.latitude }} lon: {{ g.longitude }}</p>
+		<p class="lead">lat: {{ g.latitude|floatformat:2 }} lon: {{ g.longitude|floatformat:2 }}</p>
 		<div class="mt-2">
 			<table class="table table-light table-bordered table-hover">
 				<thead class="thead-dark">
