@@ -1,8 +1,8 @@
-# Invoice Project
+# Weather API Project
 
 ## Overview
 
-This project implements a Django application for managing invoices and their details through a RESTful API. The API supports various HTTP methods (GET, POST, PUT, DELETE) for both invoices and their associated details.
+The objective of this project is to develop an API that provides historical weather data based on user input for location (Latitude & Longitude) and the number of days in the past. The API will return detailed hourly information on temperature, precipitation, and cloud cover for the specified duration.
 
 ## Getting Started
 
