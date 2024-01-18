@@ -1,0 +1,11 @@
+{% extends 'weather_app/base.html' %}
+{% block start %}
+
+<div class="container text-center mt-5">
+    <img src="https://http.cat/504" alt="Gateway Timeout" class="img-fluid mb-4 mt-2" style="max-width: 400px;">
+    <h1 class="text-danger">Time Limit Exceeded</h1>
+    <p class="lead">The server took too long to respond. Please try again later.</p>
+    <a href="{% url 'index' %}" class="btn btn-success mt-2">Get Back to Search</a>
+</div>
+
+{% endblock %}

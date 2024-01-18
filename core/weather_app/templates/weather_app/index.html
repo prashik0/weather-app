@@ -6,19 +6,27 @@
 		<form style="padding: 18px;" method="post">
 			{% csrf_token %}
 			<h2 class="text-center mb-4"><a class="navbar-brand" href="/">Weatherizer</a></h2>
-
+			{% if messages %}
+				{% for message in messages %}
+		
+					<div class="alert alert-danger" role="alert">
+						{{ message }}
+					</div>
+		
+				{% endfor %}
+			{% endif %}
 			<div class="form-group mb-4">
-				<input name="city" type="text" class="form-control" id="city" placeholder="Enter City" required>
+				<input name="city" type="text" class="form-control" id="city" placeholder="Enter City">
 			</div>
 
 			<div class="form-row mb-4">
 				<div class="row">
 					<div class="col">
-						<input name="latitude" type="text" class="form-control" id="latitude"
+						<input name="latitude" type="number" step="0.01" class="form-control" id="latitude"
 							placeholder="Enter Latitude">
 					</div>
 					<div class="col">
-						<input name="longitude" type="text" class="form-control" id="longitude"
+						<input name="longitude" type="number" step="0.01" class="form-control" id="longitude"
 							placeholder="Enter Longitude">
 					</div>
 				</div>
