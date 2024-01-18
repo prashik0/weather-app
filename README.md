@@ -48,13 +48,17 @@ The objective of this project is to develop an API that provides historical weat
    ```bash
    python manage.py runserver
 
-
+## Getting Started
 <img width="1440" alt="Screenshot 2024-01-18 at 7 28 10 PM" src="https://github.com/prashik0/weather-app/assets/88423828/e49fe184-4007-42a4-95ea-31bb7a6b4e31">
+<hr>
 <img width="1440" alt="Screenshot 2024-01-18 at 7 28 37 PM" src="https://github.com/prashik0/weather-app/assets/88423828/c5382d8c-8340-428c-8356-258360bb48b4">
+<hr>
 <img width="1440" alt="Screenshot 2024-01-18 at 7 29 03 PM" src="https://github.com/prashik0/weather-app/assets/88423828/a39cb821-b7b1-44fb-adf8-7b7a392eac1d">
+<hr>
 <img width="1440" alt="Screenshot 2024-01-18 at 7 29 45 PM" src="https://github.com/prashik0/weather-app/assets/88423828/9251cc1a-aa3d-4c66-90cf-28a651e1a2f1">
+<hr>
 <img width="1440" alt="Screenshot 2024-01-18 at 7 29 55 PM" src="https://github.com/prashik0/weather-app/assets/88423828/919d8713-2b0b-4200-82d5-f52c40416899">
+<hr>
 <img width="1440" alt="Screenshot 2024-01-18 at 7 30 08 PM" src="https://github.com/prashik0/weather-app/assets/88423828/0a6ab4fb-d899-44cb-bd6f-a1ef18e23db6">
+<hr>
 <img width="1440" alt="Screenshot 2024-01-18 at 7 30 20 PM" src="https://github.com/prashik0/weather-app/assets/88423828/44c18631-14c7-49ed-a960-ee6b0b712730">
-
-
