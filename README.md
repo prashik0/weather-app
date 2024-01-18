@@ -22,6 +22,7 @@ The objective of this project is to develop an API that provides historical weat
    ```
 
 1. **Activate the Virtual Environment:**
+   
    Mac users
    ```bash
    source env/bin/activate
